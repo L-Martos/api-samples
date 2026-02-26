@@ -1,0 +1,8 @@
+{
+  "status": "success",
+  "transaction_id": "TXN-998877",
+  "approved": true,
+  "limit_remaining": 350.00,
+  "message": "Transaction approved.",
+  "timestamp": "2026-02-25T10:15:01Z"
+}
