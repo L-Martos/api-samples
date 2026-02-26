@@ -1,0 +1,11 @@
+{
+  "request_id": "12345",
+  "customer_id": "987654",
+  "action": "transaction_lookup",
+  "payload": {
+    "amount": 125.50,
+    "currency": "USD",
+    "merchant": "Test Merchant",
+    "timestamp": "2026-02-25T10:15:00Z"
+  }
+}
