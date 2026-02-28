@@ -1,28 +1,49 @@
+# API Samples (JSON Requests & Responses)
+
+This repository demonstrates how SaaS platforms exchange data during integrations and onboarding workflows.
+
+The goal is to show practical understanding of API payload structure, validation logic, and troubleshooting patterns used by Implementation and Solutions Engineering teams.
+
 ---
 
-## How I Approach API Troubleshooting
+## 📦 Files Included
 
-When validating an integration, I typically check:
+### sample_api_request.json
+Example outbound request sent from a client system to an API.
 
-1. **Request Validation**
-   - Required fields present
-   - Correct data types
-   - Proper authentication headers
+Demonstrates:
+- request identifiers
+- action-based workflows
+- nested payload structure
+- timestamps and transaction data
 
-2. **Response Analysis**
-   - HTTP status codes
-   - Error objects or messages
-   - Missing or null fields
+### sample_api_response.json
+Example API response returned after processing a request.
 
-3. **Mapping Verification**
-   - Field naming alignment
-   - ID consistency between systems
-   - Timestamp formatting
+Demonstrates:
+- success status handling
+- transaction confirmation
+- business rule outputs
+- system timestamps
 
-4. **Root Cause Isolation**
-   - Payload issue
-   - Configuration issue
-   - Environment mismatch
-   - Backend processing error
+---
 
-This mirrors real-world SaaS onboarding and implementation troubleshooting workflows.
+## 🧠 Learning Focus
+
+- API request/response relationships
+- JSON payload validation
+- Integration troubleshooting thinking
+- Understanding backend system communication
+
+---
+
+## 🎯 Purpose
+
+This project represents foundational API knowledge required for:
+
+- Solutions Engineering
+- SaaS Implementation
+- Integration Engineering
+- Technical Onboarding roles
+
+All data is fictional and used for learning purposes only.
