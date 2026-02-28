@@ -1,70 +1,64 @@
-# API Samples — JSON Request & Response Examples
+# API Samples (JSON Requests & Responses)
 
-This repository contains simplified API request and response examples used to understand how SaaS platforms exchange data during system integrations and implementations.
+A small collection of clean API request/response examples used to understand how SaaS platforms exchange data during integrations and onboarding.
 
----
-
-## 🎯 Purpose
-
-These examples demonstrate how implementation analysts and integration teams:
-
-- Validate API payload structure
-- Troubleshoot failed integrations
-- Understand request vs response behavior
-- Perform UAT and data validation
-- Analyze API communication during onboarding
-
-No real credentials or production data are included.
+These samples are designed to demonstrate integration thinking, payload validation, and troubleshooting workflows — common responsibilities in Implementation, Solutions, and Integration roles.
 
 ---
 
-## 📂 Files
+## What’s Inside
 
-### sample_api_request.json
-Example outbound request sent from a client system to an API endpoint.
+### `sample_api_request.json`
+Example outbound request payload a client system would send to an API.
 
-Demonstrates:
-- Request body structure
-- Required fields
-- Transaction lookup example
+Use this to practice:
+- validating required fields
+- understanding payload structure
+- mapping fields during onboarding
 
----
+### `sample_api_response.json`
+Example API response payload returned to the client system.
 
-### sample_api_response.json
-Example response returned by the API.
-
-Demonstrates:
-- Status handling
-- Response payload format
-- Returned transaction data
+Use this to practice:
+- reading status + error structures
+- validating response fields
+- troubleshooting unexpected responses
 
 ---
 
-## 🔄 Typical Integration Flow
+## Typical Integration Flow
 
 Client System → API Request → Server Processing → API Response → Validation
 
-This mirrors common SaaS onboarding and integration workflows.
+This mirrors common SaaS onboarding and implementation workflows.
 
 ---
 
-## 🧠 Real-World Use Cases
+## How to Use This Repo (Quick)
 
-Used by:
-
-- Implementation Analysts
-- Integration Specialists
-- QA / UAT teams
-- Technical Support Engineers
-
-Common scenarios:
-- API troubleshooting
-- Payload validation
-- Field mapping verification
-- Integration testing
+1. Open `sample_api_request.json`
+2. Identify:
+   - required fields
+   - optional fields
+   - IDs and timestamps
+3. Compare to `sample_api_response.json`
+4. Validate:
+   - success/failure signals
+   - returned transaction object fields
+   - missing or mismatched values
 
 ---
 
-## ⚠️ Disclaimer
+## What This Demonstrates (Portfolio)
 
-All data is fictional and used strictly for learning and portfolio demonstration.
+- Integration payload literacy (JSON)
+- Request vs response reasoning
+- Troubleshooting mindset (what to check first)
+- Documentation clarity
+
+---
+
+## Disclaimer
+
+All data is fictional and used strictly for portfolio demonstration.
+No credentials, PHI, or production identifiers are included.
