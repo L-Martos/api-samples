@@ -1,5 +1,10 @@
 # API Samples (JSON Requests & Responses)
 
+---
+
+## 🔌 How This Simulates a Real API Integration
+
+
 This repository demonstrates how SaaS platforms exchange data during integrations and onboarding workflows.
 
 The goal is to show practical understanding of API payload structure, validation logic, and troubleshooting patterns used by Implementation and Solutions Engineering teams.
