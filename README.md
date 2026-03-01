@@ -47,3 +47,13 @@ This project represents foundational API knowledge required for:
 - Technical Onboarding roles
 
 All data is fictional and used for learning purposes only.
+
+---
+
+## ✅ Payload Validation
+
+These JSON files can be validated locally using Python:
+
+```bash
+python -m json.tool sample_api_request.json
+python -m json.tool sample_api_response.json
